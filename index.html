@@ -1,23 +1,384 @@
 <!DOCTYPE html>
+<html class="no-js" lang="en">
 
-<!--This is a comment. Comments are not displayed in the browser-->
-<!--https://www.w3schools.com/tags/tag_font.asp-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AVA.AI|Data Science|Machine Learning|AI Consulting|Prototyping</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
 
-<html>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">What we do</a>
+            </li>
+            <li>
+                <a href="#skills">Skills & Tech Stack</a>
+            </li>
+            <li>
+                <a href="#projects">Portfolio</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-  <head>
-    <title>How you landed here?</title>
-    <link href="./mystyles.css" rel="stylesheet" />
-  </head>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>AVA.AI</h1>
+            <h2>Data Science | Machine Learning | AI Consulting | Prototyping</h2>
+        </div>
+        <!-- End #lead-content -->
 
-  <body class="sepia">
+        <div id="lead-overlay"></div>
 
-	<h1>My Static Site</h1>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
 
-	<p style="color: #1a0dab">
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">What we do</h2>
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size: x-large">
+                        We extract knowledge from data, develop machine learning solutions for multiple domains and build and deploy prototypes
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
 
-	Nothing to see here... yet
+    <div id="skills">
+        <h2 class="heading">Skills & Tech Stack</h2>
+        <ul>            
+            <li>Data Science</li>
+            <li>Machine Learning</li>
+            <li>Artificial Intelligence</li>
+            <li>Prototyping</li>
+            <li>Electronics Engineering</li>
+            <li>Physics</li>
+            <li>Consulting</li>
+            <li>python</li>
+            <li>numpy</li>
+            <li>pandas</li>
+            <li>matplotlib</li>
+            <li>scikit-learn</li>
+            <li>Keras</li>
+            <li>FastAPI</li>
+            <li>NLP</li>
+            <li>TF-IDF</li>
+            <li>Fasttext</li>
+            <li>Matlab</li>
+            <li>SQL</li>
+            <li>Linux</li>
+            <li>Git</li>
+            <li>Docker</li>
+        </ul>
+    </div>
+    <!-- End #stack -->
 
-  </body>
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Portfolio</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-aerial-detection.jpg" width="300" height=auto/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Automated Cattle Detection System</h3>
+                        <p>
+                            Object Detection and tracking on aerial images via Computer Vision and Neural Networks
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-icd-coder.jpg" width="300" height=auto/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>International Classification of Diseases (ICD) Classifier</h3>
+                        <p>
+                            Stand-alone Microservice for classification of clinical documments according ICD codes. Hybrid system including machine learning and statistical search. Tf-IDF. Natural Language Processing.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-weather.jpg" width="300" height=auto/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Georeferenced Weather Warning System for Agriculture</h3>
+                        <p>
+                            Online machine learning system on time series. Collects the prediction data of several weather services for a given location, validates it (a posteriori) via user's input, or a locally installed weather station, and based on this data it learns to better predict future warnings
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-ml-presentation.jpg" width="300" height=auto/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Machine Learning (ML) fundamentals and types of ML algorithms</h3>
+                        <p>
+                            Artificial Intelligence Lecture at philosophers Colloquium "Phencoco"
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-tictactoe.jpg" width="300" height=auto/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Deep-Tic-Tac-Toe, Explainable AI</h3>
+                        <p>
+                            Educational Self-learning board game applying Deep Reinforcement Learning.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-wind.jpg" width="300" height=auto/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Automated wind park data analyzer</h3>
+                        <p>
+                            Tool for automating the analysis of wind turbine’s sensors data for
+                            anomaly detection and generation of statistical data for certification purposes. Matlab.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <!-- TODO: other projects. Start Comment
+
+                <a id="view-more-projects" href="#">View More Projects</a>
+                <div id="more-projects" class="row">
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/project.jpg" width="300" height=auto/>
+                        </div>
+                        <-- End .project-image --
+                        <div class="project-info">
+                            <h3>Telegram Watchbot</h3>
+                            <p>
+                                Watchbot for guarding server, restarting services and sending related information. 
+                            </p>
+                        </div>
+                        <-- End .project-info --
+                    </div>
+                    <-- End .project --
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/project.jpg" width="300" height=auto/>
+                        </div>
+                        <- End .project-image --
+                        <div class="project-info">
+                            <h3>Lane Recogntion for Autonomous Driving</h3>
+                            <p>
+                                Sensor-Data (LIDAR-Scanner) for lane detection and tracking. 
+                            </p>
+                        </div>
+                        <-- End .project-info --
+                    </div>
+                    <-- End .project --
+
+                    finish -->
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/project-fc-logic.png" width="300" height=auto/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Frequency Converter Logic Simulator</h3>
+                            <p>
+                                Tool for simulating the logic behaviour of a pitch frequency converter of wind turbine.
+                            </p>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="Since 07/2018">
+                <h3>AVA.AI Data Science</h3>
+                <h4>Berlin, Germany</h4>
+                <p>
+                    Data Science, Machine Learning, AI consulting, Prototyping, Presentations.
+                </p>
+            </div>
+
+            <div data-date="10/2020 – 11/2021">
+                <h3>MIA Medical Information Analytics GmbH</h3>
+                <p>
+                    Data Science. Development and implementation of a medical classification service via statistical methods and Machine Learning.
+                </p>
+            </div>
+
+            <div data-date="03/2011 – 01/2018">
+                <h3>Suzlon Energy Ltd, Rostock. Wind-Energy</h3>
+                <p>
+                    Automated wind park data analyzer: tool for automating the analysis of wind turbine’s sensors data for anomaly detection and generation of statistical data for certification purposes. Hub Thermal Model: Model development, implementation, simulation and validation. Programming and parametrization of pitch frequency converters, digital electronics, evaluation of SCADA data, signal processing, root cause analysis, construction and support of prototype systems, planning and execution of tests and measurements, ultracapacitors, specifications of components and software, modelling and simulation.
+                </p>
+            </div>
+
+            <div data-date="10/2009 – 04/2010">
+                <h3>Institute for Control Engineering (IFR) and Automotive Research Centre Niedersachsen (NFF).</h3>
+                <h4>Technical University of Brunswick</h4>
+                <p>
+                    Autonomous Driving, Data processing, Sensor Data Fusion, Control, Locating.
+                </p>
+            </div>
+
+            <div data-date="06/2008 – 09/2009">
+                <h3>Department of health at work</h3>
+                <h4>University of Rosario, Argentina</h4>
+                <p>
+                    Systems Administration: network, security, and database administration
+                </p>
+            </div>
+
+            <div data-date="01/2007 – 07/2007">
+                <h3>Institute of Control Engineering</h3>
+                <h4>TU Brunswick</h4>
+                <p>
+                    Development of a computer-vision based driver-assistance system. Collision warning and optimization of the image processing algorithms.
+                </p>
+            </div>
+
+            <div data-date="01/2007 – 06/2007">
+                <h3>Institute for Software Systems Engineering (SSE)</h3>
+                <h4>TU Brunswick</h4>
+                <p>
+                    Vehicle longitudinal dynamics modelling for ”CarOLO Project”. Development and implementation of an “Engine Map” and a “Brake Map” by means of data processing.
+                </p>
+            </div>
+
+            <div data-date="2002 – 2006">
+                <h3>Computer-Administration</h3>
+                <p>
+                    Technical support, hardware and software installation, updating, repairing.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/maykqlrl">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span>
+                        Joaquin Gomez Prats
+                    </p>
+                    <p>
+                        <a href="imprint.html" target="_blank" rel="noopener noreferrer">Imprint</a>  |  <a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/joaquin-gomez-prats-5b364532" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.xing.com/profile/Joaquin_GomezPrats/cv" target="_blank"><i class="fa fa-xing" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.freelancermap.de/freelancer-verzeichnis/profile/entwicklung/252922-profil-joaquin-gomez-prats-data-scientist-machine-learning-engineer.html" target="_blank"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
 
 </html>
